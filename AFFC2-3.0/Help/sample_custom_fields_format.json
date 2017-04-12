@@ -1,0 +1,54 @@
+[
+    {
+        "dataType": "input",
+		"class": "form-control",
+		"fields" : 
+			{	
+				"Unknown Field 1": "pullFrom-options-name-<unknownField1>-placeholder-~~",
+				"Unknown Field 2": "pullFrom-options-name-<unknownField2>-placeholder-~Field Placeholder~"
+			}
+    },
+    {
+		"dataType": "textarea",
+		"class": "form-control",
+		"fields" : 
+			{	
+				"Unknown Field 4": "pullFrom-options-name-<unknownField4>"
+			}
+    },
+	{
+		"dataType": "radio",
+		"class": "",
+		"fields" : 
+			{	
+				"What you do?": "pullFrom-options-name-<ocupation>-values{study,work}-labels(Study, Work)"
+			}
+    },
+	{
+		"dataType": "checkbox",
+		"class": "",
+		"fields" : 
+			{	
+				"Transportation": "pullFrom-options-name-<vehicles[]>-values{bike,car,bus}-labels(I have a bike, I have a car, I have a bus)"
+			}
+    },
+	{
+		"dataType": "select",
+		"class": "form-control",
+		"fields" : 
+			{	
+				"Source": "pullFrom-options-name-<source>-values{book,ebook,article}-labels(Book, eBook, Article)",
+				"Customers": "pullFrom-tableName-*sample_data*-fields-#name#-name-<customers-name>",
+				"Customers Status": "pullFrom-tableName-*sample_data*-fields-#status#-name-<customers-status>"
+			}
+    },
+	{
+		"dataType": "input-upload",
+		"class": "",
+		"fields" : 
+			{	
+				"File": "pullFrom-options-name-<file>-+file+"
+			}
+    }
+	
+]

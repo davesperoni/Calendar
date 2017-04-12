@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------------------------------------------------------------
+17.02.17 - Released version 3.0
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Safe files to be updated (v3.0)
+-------------------------------
+You can safely update:
+- calendar.php,
+- jquery.calendar.php
+- whole content inside js
+- whole content inside lib 
+- css /
+ - fullcalendar.css
+ - fullcalendar.print.css
+
+In case you have modified some of these files, you have to look for:
+
+- calendar.php 
+ - Fixed addEvent to avoid empty field from being saved (on some servers caused the Failed to Add Event error)
+
+- jquery.calendar.js
+ - Just the confgs/options
+
+- custom.js
+
+-------------------------------------------------------------------------------------------------------------------------------------
+25.10.16 - Fixed Importer
+-------------------------------------------------------------------------------------------------------------------------------------
+
+jquery.calendar.js -> line 408: change description to description_editable;
+importer.php
+export.php -> line 9 - line 10
+cal_export.php -> line 18-line 19
+
